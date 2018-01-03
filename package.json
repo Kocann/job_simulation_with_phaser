@@ -1,0 +1,35 @@
+{
+  "name": "job_simulation",
+  "version": "1.0.0",
+  "description": "A simple game about everyday work life with dose of humor :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kocann/job_simulation_with_phaser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kocann/job_simulation_with_phaser/issues"
+  },
+  "homepage": "https://github.com/Kocann/job_simulation_with_phaser#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.6.1",
+    "sass-loader": "^6.0.6",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
