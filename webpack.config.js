@@ -33,7 +33,21 @@ module.exports = {
     { test: /p2.js/, 
         use: [{
             loader: "script-loader"}]
-    }]
+    },
+    { test: /phaser-split.js/, 
+        use: [{
+            loader: "script-loader"}]
+    },
+    {
+    test: /\.js$/,
+    exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['env']
+          }
+        }
+      }]
 },
 resolve: {
     alias: {
